@@ -1,0 +1,38 @@
+body {
+  font-family:sans-serif;
+  font-size:15;
+}
+
+.section-main {
+  color: white;
+  background-color: #FF512F;
+}
+
+.section-h1 {
+  font-size: 48px;
+}
+
+.section-a1{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.section-p1 {
+  height: 2px;
+}
+
+.main-h1 {
+  font-size: 26px;
+  color: #503226;
+}
+
+.main-h2 {
+  font-size: 15px;
+  font-weight: normal;
+  color: #957777;
+}
+
+.footer-span {
+  color: #957777;
+}
