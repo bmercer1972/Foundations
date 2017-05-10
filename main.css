@@ -3,37 +3,134 @@ body {
   font-size:15;
 }
 
-.section-main {
+.header-style{
+  color: #FF512F;
+  margin-left: 50px;
+}
+
+.headerlink-style{
+  color: #FF512F;
+  text-decoration: none;
+  padding-right: 15px;
+}
+
+.headerlink-style:hover{
+  color: #AF2307;
+  text-decoration: underline;
+  text-decoration-color: #FBC1C2;
+}
+
+.section1-style {
   color: white;
   background-color: #FF512F;
+  padding-left: 350px;
 }
 
-.section-h1 {
+.link1-style {
+  color: inherit;
+  text-decoration: none;
+  line-height: 100px;
+}
+
+.h1-style {
   font-size: 48px;
+  font-weight: normal;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 50px;
 }
 
-.section-a1{
+.p1-style{
+  color: #AF2307;
+  padding: 0px;
+  margin: 0px;
+}
+
+.section2-style{
+  width: 900px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-top: 2px dashed #AF2307;
+  border-bottom: 2px dashed #AF2307;
+}
+
+.link2-style{
+  color: #AF2307;
+}
+
+.span1-style{
   color: white;
-  font-size: 20px;
+  font-size: 28px;
+}
+
+.button1-style{
+  font-size: 18px;
   font-weight: bold;
-  text-decoration-color: purple;
+  padding: 12px;
+  margin-left: 20px;
+  color: #FF512F;
+  border: none;
+  border-radius: 7px;
+  background-color: white;
 }
 
-.section-p1 {
-  height: 2px;
+.section3-style{
+  padding-left: 350px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  width: 800px;
 }
 
-.main-h1 {
+.h2-style {
   font-size: 26px;
   color: #503226;
 }
 
-.main-h2 {
+.h3-style {
   font-size: 15px;
   font-weight: normal;
   color: #957777;
 }
 
-.footer-span {
+.h2b-style{
+  font-size: 26px;
+  padding: 30px;
+  padding-left: 500px;
+  margin: 0px;
+  color: #503226;
+  background-color: #FFEEEB;
+}
+
+.link3-style{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footerlink-style{
+  color: #FF512F;
+  text-decoration: none;
+  padding-right: 15px;
+}
+
+.footerlink-style:hover{
+  color: #AF2307;
+  text-decoration: underline;
+  text-decoration-color: #FBC1C2;
+}
+
+.footer-style{
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.link4-style{
+  color: #957777;
+}
+
+.footerspan-style {
   color: #957777;
 }
