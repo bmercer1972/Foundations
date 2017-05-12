@@ -3,51 +3,69 @@ body {
   font-size:15;
 }
 
-.header-style{
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+.header1{
   color: #FF512F;
   margin-left: 50px;
 }
 
-.headerlink-style{
+.header2{
   color: #FF512F;
-  text-decoration: none;
-  padding-right: 15px;
 }
 
-.headerlink-style:hover{
+.logo {
+  float: left;
+}
+
+.header1-link{
+  color: #FF512F;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.header1-link:hover{
   color: #AF2307;
   text-decoration: underline;
   text-decoration-color: #FBC1C2;
 }
 
-.section1-style {
+.header1-div1 {
+  display: inline-block;
+  padding-top: 25px;
+  padding-left: 10px;
+  padding-bottom: 35px;
+}
+
+.header1-div2 {
+  display: inline-block;
+  padding-top: 20px;
+  float: right;
+}
+
+.section1 {
   color: white;
   background-color: #FF512F;
   padding-left: 350px;
+  height: 600px;
 }
 
-.link1-style {
-  color: inherit;
-  text-decoration: none;
-  line-height: 100px;
+.section1-div1 {
+  display: inline-block;
+  float: left;
 }
 
-.h1-style {
-  font-size: 48px;
-  font-weight: normal;
-  padding: 0px;
-  margin: 0px;
-  margin-top: 50px;
+.section1-div2 {
+  display: inline-block;
+  width: 800px;
+  padding-left: 150px;
 }
 
-.p1-style{
-  color: #AF2307;
-  padding: 0px;
-  margin: 0px;
-}
-
-.section2-style{
-  width: 900px;
+.section1-div3 {
+  width: 500px;
   padding-top: 30px;
   padding-bottom: 30px;
   margin-top: 30px;
@@ -56,16 +74,42 @@ body {
   border-bottom: 2px dashed #AF2307;
 }
 
-.link2-style{
+.section1-description {
+  line-height: 30px;
+}
+
+.link1 {
+  color: inherit;
+  text-decoration: none;
+  line-height: 100px;
+}
+
+.head1 {
+  font-size: 48px;
+  font-weight: normal;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 50px;
+}
+
+.p1 {
+  color: #AF2307;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+.link2 {
   color: #AF2307;
 }
 
-.span1-style{
+.span1 {
   color: white;
   font-size: 28px;
 }
 
-.button1-style{
+.button1 {
   font-size: 18px;
   font-weight: bold;
   padding: 12px;
@@ -76,61 +120,127 @@ body {
   background-color: white;
 }
 
-.section3-style{
+.section2 {
   padding-left: 350px;
   padding-top: 50px;
   padding-bottom: 100px;
-  width: 800px;
 }
 
-.h2-style {
+.header2-div1 {
+  display: inline-block;
+  width: 200px;
+  margin: 0px;
+  color: #AF2307;
+  border-bottom: 3px solid #AF2307;
+}
+
+.header2-div2 {
+  display: inline-block;
+  width: 1300px;
+  margin: 0px;
+  padding: 2px;
+  border-bottom: 2px solid #FBC1C2;
+}
+
+.header2-head1 {
+  display: inline-block;
+}
+
+.header2-head2 {
+  display: inline-block;
+}
+
+.header2-head3 {
+  display: inline-block;
+  padding: 5px;
+  float: right;
+}
+
+.head2 {
   font-size: 26px;
   color: #503226;
 }
 
-.h3-style {
+.head3 {
   font-size: 15px;
   font-weight: normal;
   color: #957777;
 }
 
-.h2b-style{
+.head2b {
   font-size: 26px;
   padding: 30px;
-  padding-left: 500px;
+  padding-left: 900px;
   margin: 0px;
   color: #503226;
   background-color: #FFEEEB;
 }
 
-.link3-style{
+.section3 {
+  color: white;
+  background-color: #FF512F;
+  padding-left: 350px;
+  height: 550px;
+}
+
+.section3-div1 {
+  display: inline-block;
+  padding: 20px;
+}
+
+.section3-div2 {
+  display: inline-block;
+  padding: 20px;
+}
+
+.section3-div3 {
+  display: inline-block;
+  padding: 20px;
+}
+
+.link3 {
   color: white;
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
 }
 
-.footerlink-style{
-  color: #FF512F;
-  text-decoration: none;
-  padding-right: 15px;
+.footer1 {
+  margin-top: 50px;
+  margin-left: 50px;
 }
 
-.footerlink-style:hover{
+.footer1-link{
+  color: #FF512F;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.footer1-link:hover{
   color: #AF2307;
   text-decoration: underline;
   text-decoration-color: #FBC1C2;
 }
 
-.footer-style{
-  margin-top: 50px;
-  margin-left: 50px;
+.footer1-div0 {
+  display: inline-block;
+  float: left;
 }
 
-.link4-style{
+.footer1-div1 {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.footer1-div2 {
+  display: inline-block;
+  float: right;
+}
+
+.link4 {
   color: #957777;
 }
 
-.footerspan-style {
+.footerspan {
   color: #957777;
 }
