@@ -1,3 +1,5 @@
+//Just testing javascript
+
 var givenName;
 console.log(givenName);
 givenName = "Brett";
