@@ -33,6 +33,18 @@ body {
   text-decoration-color: #FBC1C2;
 }
 
+.cartlink{
+  color: #FF512F;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.cartlink:hover{
+  color: #AF2307;
+  text-decoration: underline;
+  text-decoration-color: #FBC1C2;
+}
+
 .header1-div1 {
   display: inline-block;
   padding-top: 25px;
@@ -61,7 +73,7 @@ body {
 .section1-div2 {
   display: inline-block;
   width: 800px;
-  padding-left: 150px;
+  padding-left: 250px;
 }
 
 .section1-div3 {
@@ -107,15 +119,20 @@ body {
   font-size: 28px;
 }
 
-.button1 {
+.buy-button1 {
   font-size: 18px;
   font-weight: bold;
   padding: 12px;
   margin-left: 20px;
-  color: #FF512F;
-  border: none;
+  border: 3px solid white;
   border-radius: 7px;
-  background-color: white;
+  color: #FF512F;
+  background: white;
+}
+
+.buy-button1:hover {
+  color: white;
+  background: #FF512F;
 }
 
 .section2 {
@@ -125,42 +142,39 @@ body {
 }
 
 .header2-div1 {
-  display: inline-block;
-  width: 200px;
+  width: 2000px;
   margin: 0px;
-  color: #AF2307;
-  border-bottom: 3px solid #AF2307;
-}
-
-.header2-div2 {
-  display: inline-block;
-  width: 1300px;
-  margin: 0px;
-  padding: 2px;
   border-bottom: 2px solid #FBC1C2;
 }
-
 .header2-head1 {
   display: inline-block;
+  margin: 0px 100px 0px 0px;
+  color: #AF2307;
+  border-bottom: 4px solid #FBC1C2;
+  cursor: pointer;
 }
 
 .header2-head2 {
   display: inline-block;
+  padding: 0px;
+  margin: 0px 1000px 0px 0px;
+  cursor: pointer;
 }
 
 .header2-head3 {
   display: inline-block;
-  padding: 5px;
-  float: right;
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer;
 }
 
 .head2 {
-  font-size: 26px;
+  font-size: 28px;
   color: #503226;
 }
 
 .head3 {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: normal;
   color: #957777;
 }
@@ -168,7 +182,7 @@ body {
 .head2b {
   font-size: 26px;
   padding: 30px;
-  padding-left: 900px;
+  padding-left: 1100px;
   margin: 0px;
   color: #503226;
   background-color: #FFEEEB;

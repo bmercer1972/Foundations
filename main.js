@@ -1,43 +1,58 @@
-//Exercise 1
-function addNumbers(numberA, numberB) {
-  return (numberA + numberB);
+var cartItems = 0;
+var myButton = $(".buy-button1");
+var myCartLink = $(".cartlink");
+var myHeader1 = $(".header2-head1");
+var myHeader2 = $(".header2-head2");
+var myHeader3 = $(".header2-head3");
+var myHead2 = $(".head2");
+var myHead3 = $(".head3");
+
+displayCart();
+myButton.click(function(){
+    myButton.text("Added To Cart!");
+    incrementCart();
+    setTimeout(function(){myButton.text("Buy Now!");}, 1000);
+});
+
+function displayCart(){
+  var cartText = "Shopping Cart (" + cartItems + ")";
+  myCartLink.text(cartText);
 }
 
-var twoPlusTwo = addNumbers(2, 2);
-
-console.log(twoPlusTwo); // 4
-
-//Exercise 2
-function yell(myString) {
-  console.log(myString.toUpperCase());
+function incrementCart(){
+  cartItems = cartItems + 1;
+  displayCart();
 }
-yell("test");
 
-function yell10(myString) {
-  for(count = 0; count < 10; count++){
-    yell(myString);
-  }
-}
-yell10("test10");
+myHeader1.click(function(){
+    myHeader1.css("color", "#AF2307");
+    myHeader1.css("border-bottom", "4px solid #FBC1C2");
+    myHeader2.css("color", "#FF512F");
+    myHeader2.css("border-bottom", "none");
+    myHeader3.css("color", "#FF512F");
+    myHeader3.css("border-bottom", "none");
+    myHead2.text("Exciting Topic");
+    myHead3.text("Content Here");
+});
 
-//Exercise 3
-function longest(string1, string2) {
-  if (string1.length > string2.length) {
-    return string1;
-  } else {
-    return string2;
-  }
-}
-console.log(longest("Bill", "Jim"));
+myHeader2.click(function(){
+    myHeader2.css("color", "#AF2307");
+    myHeader2.css("border-bottom", "4px solid #FBC1C2");
+    myHeader1.css("color", "#FF512F");
+    myHeader1.css("border-bottom", "none");
+    myHeader3.css("color", "#FF512F");
+    myHeader3.css("border-bottom", "none");
+    myHead2.text("Find Your Shoe Size & Fit");
+    myHead3.text("Content Here");
+});
 
-//Exercise 4
-function isVowel(myChar){
-  var myUChar = myChar.toUpperCase();
-  if (myUChar === "A" || myUChar === "E" || myUChar === "I" || myUChar === "O" || myUChar === "U") {
-    return true;
-  } else {
-    return false;
-  }
-}
-console.log(isVowel("C"));
-console.log(isVowel("E"));
+myHeader3.click(function(){
+    myHeader3.css("color", "#AF2307");
+    myHeader3.css("border-bottom", "4px solid #FBC1C2");
+    myHeader1.css("color", "#FF512F");
+    myHeader1.css("border-bottom", "none");
+    myHeader2.css("color", "#FF512F");
+    myHeader2.css("border-bottom", "none");
+    myHead2.text("What Our Customers Are Saying!");
+    myHead3.text("Don't take our word for it!  Read what our customers are saying about this product. We guarantee you won't be disappointed with your purchase.");
+});
